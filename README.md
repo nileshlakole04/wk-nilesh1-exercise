@@ -72,3 +72,23 @@ The codebase contains a Java and a Kotlin implementation. Choose one to refactor
         - Ensure all tests pass before submission.
     - **Design Patterns**
         - Consider applying relevant design patterns to improve code structure and efficiency.
+
+
+
+
+- **Code refactored as below**
+
+	- **Removed duplication** → one generic scoring method per category.
+
+	- **Enum-based categories** → centralizes rules, easy to extend.
+
+	- **DiceRoll class** → encapsulates dice state.
+
+	- **Strategy Pattern for output** → flexible output (console, file, etc.).
+
+	- **GameSimulator** → simulates rolls and outputs results.
+
+	- **Testability** → each category scoring can be unit tested independently.
+	
+## Run the tests
+	- run YatzyJavaRefactoredTest.java class from IDE
