@@ -24,7 +24,7 @@ public class YatzyJavaTest {
 
     @Test
     public void test_1s() {
-        assertTrue(YatzyJava.ones(1, 2, 3, 4, 5) == 1);
+        assertEquals(1, YatzyJava.ones(1, 2, 3, 4, 5));
         assertEquals(2, YatzyJava.ones(1, 2, 1, 4, 5));
         assertEquals(0, YatzyJava.ones(6, 2, 2, 4, 5));
         assertEquals(4, YatzyJava.ones(1, 2, 1, 1, 1));
